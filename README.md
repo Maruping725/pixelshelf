@@ -1,1 +1,46 @@
-index.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>PixelShelf Marketplace</title>
+
+<style>
+body{
+font-family:Arial;
+background:#0f0f1a;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+h1{
+font-size:40px;
+}
+
+.product{
+background:#1c1c2e;
+padding:20px;
+margin:20px;
+border-radius:10px;
+display:inline-block;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Welcome to PixelShelf</h1>
+<p>Your digital product marketplace</p>
+
+<div class="product">
+<h3>Resume Template Pack</h3>
+<p>$9</p>
+</div>
+
+<div class="product">
+<h3>Business Planner</h3>
+<p>$7</p>
+</div>
+
+</body>
+</html>
