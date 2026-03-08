@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><img src="https://via.placeholder.com/300">
+<html><img src="https://via.placeholder.com/300"><img src="wallpaper.jpg">
 <head>
 <title>PixelShelf Marketplace</title>
 
