@@ -4,34 +4,66 @@
 <title>PixelShelf Marketplace</title>
 
 <style>
+
 body{
 font-family:Arial;
+margin:0;
 background:#0f0f1a;
 color:white;
+}
+
+header{
+background:linear-gradient(90deg,#7b2cff,#00e5ff);
+padding:30px;
 text-align:center;
-padding:40px;
+}
+
+h1{
+margin:0;
+}
+
+.container{
+width:90%;
+margin:auto;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:40px;
 }
 
 .product{
 background:#1c1c2e;
 padding:20px;
-margin:20px;
-border-radius:10px;
-display:inline-block;
+border-radius:12px;
+text-align:center;
+transition:0.3s;
 }
-</style>
 
+.product:hover{
+transform:scale(1.05);
+}
+
+button{
+background:#00e5ff;
+border:none;
+padding:10px 20px;
+border-radius:6px;
+cursor:pointer;
+margin-top:10px;
+}
+
+</style>
 </head>
 
 <body>
 
-<h1>Welcome to PixelShelf</h1>
-<p>Your digital product marketplace</p>
+<header>
+<h1>PixelShelf</h1>
+<p>Your Digital Product Marketplace</p>
+</header>
 
-<div class="product">
-<h3>Resume Template Pack</h3>
-<p>$9</p>
-</div>
+<div class="container">
+
 <div class="product">
 <h3>Resume Template Pack</h3>
 <p>$9</p>
@@ -43,9 +75,7 @@ display:inline-block;
 <p>$7</p>
 <button>Buy Now</button>
 </div>
-<div class="product">
-<h3>Business Planner</h3>
-<p>$7</p>
+
 </div>
 
 </body>
